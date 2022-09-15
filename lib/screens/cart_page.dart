@@ -11,7 +11,7 @@ class CartPage extends StatelessWidget {
         body: Column(
       children: [
         const HeaderBar(),
-        Lottie.asset('assets/lottie/emptycart.json', height: 300, width: 300),
+        Lottie.asset('assets/lottie/emptycart.json', height: 400, width: 400),
         const Text(
           "Empty Cart",
           style: TextStyle(

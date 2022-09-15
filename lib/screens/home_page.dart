@@ -1,4 +1,6 @@
 import 'package:amazon/utils/header_bar.dart';
+import 'package:amazon/utils/images_banner.dart';
+import 'package:amazon/utils/offer_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -8,21 +10,23 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
-      children: [
-        const HeaderBar(),
-        const SizedBox(
-          height: 150,
-        ),
-        Lottie.asset('assets/lottie/home.json', height: 300, width: 300),
-        const Text(
-          "Home Page",
-          style: TextStyle(
-            fontSize: 40,
-            fontWeight: FontWeight.bold,
+        body: SingleChildScrollView(
+      child: Column(
+        children: [
+          const HeaderBar(),
+          const ImagesBanner(),
+          const Divider(),
+          const ImageCard(),
+          const Divider(),
+          ClipRRect(
+            child: Image.asset(
+              "assets/images/purify.jpg",
+              height: 327,
+            ),
           ),
-        )
-      ],
+          const Divider(),
+        ],
+      ),
     ));
   }
 }
