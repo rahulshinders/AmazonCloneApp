@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 class AccountPage extends StatelessWidget {
   const AccountPage({Key? key}) : super(key: key);
@@ -26,15 +25,52 @@ class AccountPage extends StatelessWidget {
             body: Center(
               child: Column(
                 children: [
-                  Lottie.asset('assets/lottie/no-internet.json',
-                      height: 300, width: 300),
-                  const Text(
-                    "No Internet Connection",
-                    style: TextStyle(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  Row(
+                    children: [
+                      ClipRRect(
+                          child: Image.asset(
+                        "assets/images/amazon-png.png",
+                        height: 100,
+                        width: 100,
+                      )),
+                      const SizedBox(
+                        width: 220,
+                      ),
+                      const Icon(Icons.notifications_none),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      const Icon(Icons.search),
+                    ],
                   ),
+                  Row(
+                    children: const [
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text(
+                        "Hello, ",
+                        style: TextStyle(
+                            fontSize: 25, fontWeight: FontWeight.normal),
+                      ),
+                      Text(
+                        "Rahul",
+                        style: TextStyle(
+                            fontSize: 25, fontWeight: FontWeight.w900),
+                      ),
+                      SizedBox(
+                        width: 180,
+                      ),
+                      Icon(
+                        Icons.account_circle_sharp,
+                        size: 40,
+                      )
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  const AccountPage(),
                 ],
               ),
             )));

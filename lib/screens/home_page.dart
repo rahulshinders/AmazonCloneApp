@@ -2,7 +2,6 @@ import 'package:amazon/utils/header_bar.dart';
 import 'package:amazon/utils/images_banner.dart';
 import 'package:amazon/utils/offer_cards.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

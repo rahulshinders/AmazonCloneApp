@@ -1,4 +1,3 @@
-import 'package:amazon/utils/header_bar.dart';
 import 'package:flutter/material.dart';
 
 class OptionsPage extends StatelessWidget {
@@ -6,15 +5,20 @@ class OptionsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Column(
-      children: const [
-        HeaderBar(),
-        SizedBox(
-          height: 340,
-        ),
-        Text("Options Page")
-      ],
-    ));
+    return Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+              Color.fromARGB(255, 163, 217, 242),
+              Color.fromARGB(255, 171, 248, 211),
+              Colors.white,
+            ])),
+        child: const Scaffold(
+          backgroundColor: Colors.transparent,
+        ));
   }
 }
