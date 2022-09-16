@@ -1,16 +1,8 @@
-# amazon
+# Amazon Clone Application.
 
-A new Flutter project.
+Here are some scrrenshots...
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img height="400" src="https://user-images.githubusercontent.com/82095408/190583313-bffe7818-60ca-4731-8794-de743a52b9c6.png"/>
+<img height="400" src="https://user-images.githubusercontent.com/82095408/190583328-c0f0200f-1bdc-475c-a41a-40f305e3c04d.png" />
+<img height="400"src="https://user-images.githubusercontent.com/82095408/190583344-7e467c17-6cd4-48a3-8fc3-d0cb8de49af1.png" />
