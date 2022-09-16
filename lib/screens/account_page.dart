@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:amazon/utils/account_button.dart';
 
 class AccountPage extends StatelessWidget {
   const AccountPage({Key? key}) : super(key: key);
@@ -25,23 +26,37 @@ class AccountPage extends StatelessWidget {
             body: Center(
               child: Column(
                 children: [
+                  const SizedBox(
+                    height: 50,
+                  ),
                   Row(
                     children: [
+                      const SizedBox(
+                        width: 20,
+                      ),
                       ClipRRect(
                           child: Image.asset(
-                        "assets/images/amazon-png.png",
-                        height: 100,
-                        width: 100,
+                        "assets/images/blacklogo.png",
+                        height: 25,
                       )),
                       const SizedBox(
-                        width: 220,
+                        width: 200,
                       ),
-                      const Icon(Icons.notifications_none),
+                      const Icon(
+                        Icons.notifications_none,
+                        size: 30,
+                      ),
                       const SizedBox(
-                        width: 10,
+                        width: 15,
                       ),
-                      const Icon(Icons.search),
+                      const Icon(
+                        Icons.search,
+                        size: 30,
+                      ),
                     ],
+                  ),
+                  const SizedBox(
+                    height: 20,
                   ),
                   Row(
                     children: const [
@@ -59,18 +74,18 @@ class AccountPage extends StatelessWidget {
                             fontSize: 25, fontWeight: FontWeight.w900),
                       ),
                       SizedBox(
-                        width: 180,
+                        width: 175,
                       ),
                       Icon(
                         Icons.account_circle_sharp,
-                        size: 40,
+                        size: 45,
                       )
                     ],
                   ),
                   const SizedBox(
                     height: 20,
                   ),
-                  const AccountPage(),
+                  const AccountButton(),
                 ],
               ),
             )));
