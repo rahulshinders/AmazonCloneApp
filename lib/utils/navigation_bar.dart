@@ -27,6 +27,9 @@ class _DownNavigationBarState extends State<DownNavigationBar> {
   }
 }
 
+const activeColor = Color.fromARGB(255, 0, 143, 136);
+const inactiveColor = Colors.black;
+
 List<Widget> screens = const [
   HomePage(),
   AccountPage(),
@@ -37,22 +40,22 @@ List<Widget> screens = const [
 List<PersistentBottomNavBarItem> _navBarsItems = [
   PersistentBottomNavBarItem(
     icon: const Icon(Icons.home_outlined),
-    activeColorPrimary: const Color.fromARGB(255, 0, 143, 136),
-    inactiveColorPrimary: Colors.black,
+    activeColorPrimary: activeColor,
+    inactiveColorPrimary: inactiveColor,
   ),
   PersistentBottomNavBarItem(
     icon: const Icon(Icons.person_outline),
-    activeColorPrimary: const Color.fromARGB(255, 0, 143, 136),
-    inactiveColorPrimary: Colors.black,
+    activeColorPrimary: activeColor,
+    inactiveColorPrimary: inactiveColor,
   ),
   PersistentBottomNavBarItem(
     icon: const Icon(Icons.shopping_cart_outlined),
-    activeColorPrimary: const Color.fromARGB(255, 0, 143, 136),
-    inactiveColorPrimary: Colors.black,
+    activeColorPrimary: activeColor,
+    inactiveColorPrimary: inactiveColor,
   ),
   PersistentBottomNavBarItem(
     icon: const Icon(Icons.format_list_bulleted_outlined),
-    activeColorPrimary: const Color.fromARGB(255, 0, 143, 136),
-    inactiveColorPrimary: Colors.black,
+    activeColorPrimary: activeColor,
+    inactiveColorPrimary: inactiveColor,
   ),
 ];

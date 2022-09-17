@@ -57,7 +57,7 @@ class HeaderBar extends StatelessWidget {
                           fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
-                      width: 125,
+                      width: 115,
                     ),
                     Icon(
                       Icons.photo_camera_outlined,
@@ -69,7 +69,7 @@ class HeaderBar extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              width: 10,
+              width: 6,
             ),
             const Padding(
               padding: EdgeInsets.only(top: 34, right: 6),

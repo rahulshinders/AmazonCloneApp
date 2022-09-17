@@ -22,7 +22,7 @@ class AccountButton extends StatelessWidget {
             const SizedBox(width: 10),
             Container(
               height: 50,
-              width: 180,
+              width: 175,
               decoration: accountButton,
               child:
                   const Center(child: Text("Your Orders", style: textDesign)),
@@ -30,7 +30,7 @@ class AccountButton extends StatelessWidget {
             const SizedBox(width: 10),
             Container(
               height: 50,
-              width: 180,
+              width: 175,
               decoration: accountButton,
               child: const Center(child: Text("Buy Again", style: textDesign)),
             ),
@@ -43,7 +43,7 @@ class AccountButton extends StatelessWidget {
             const SizedBox(width: 10),
             Container(
               height: 50,
-              width: 180,
+              width: 175,
               decoration: accountButton,
               child:
                   const Center(child: Text("Your Account", style: textDesign)),
@@ -51,7 +51,7 @@ class AccountButton extends StatelessWidget {
             const SizedBox(width: 10),
             Container(
               height: 50,
-              width: 180,
+              width: 175,
               decoration: accountButton,
               child: const Center(child: Text("Your Lists", style: textDesign)),
             ),
