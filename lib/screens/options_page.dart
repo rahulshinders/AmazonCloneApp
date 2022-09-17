@@ -1,7 +1,4 @@
-import 'package:amazon/utils/header_bar.dart';
 import 'package:flutter/material.dart';
-
-import '../utils/products.dart';
 
 class OptionsPage extends StatelessWidget {
   const OptionsPage({Key? key}) : super(key: key);
