@@ -40,13 +40,11 @@ class OptionsPage extends StatelessWidget {
                 itemCount: images.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
-                    crossAxisSpacing: 6.0,
-                    mainAxisSpacing: 6.0,
-                    mainAxisExtent: 160),
+                    mainAxisExtent: 175),
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
                     margin: const EdgeInsets.only(
-                        top: 2, left: 2, right: 2, bottom: 2),
+                        top: 4, left: 4, right: 4, bottom: 4),
                     decoration: const BoxDecoration(
                       boxShadow: [
                         BoxShadow(
