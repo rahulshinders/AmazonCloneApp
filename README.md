@@ -1,6 +1,6 @@
 # Amazon Clone Application.
 
-Here are some scrrenshots...
+Here are some featured scrrenshots...
 
 <p align="left">
 <img height="500" src="https://user-images.githubusercontent.com/82095408/190870011-8deb3725-c061-42ec-8515-3ba2e83a5763.png"/>
